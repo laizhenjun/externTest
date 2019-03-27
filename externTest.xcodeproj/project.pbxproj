@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2B9D154621C146BD0070FB2B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B9D154521C146BD0070FB2B /* main.cpp */; };
+		2B9D155121C147310070FB2B /* extern.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B9D154F21C147310070FB2B /* extern.cpp */; };
+		2B9D155521C14B7C0070FB2B /* extern2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B9D155321C14B7C0070FB2B /* extern2.cpp */; };
+		2B9D155821C14D930070FB2B /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B9D155621C14D930070FB2B /* test.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,10 @@
 /* Begin PBXFileReference section */
 		2B9D154221C146BD0070FB2B /* externTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = externTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B9D154521C146BD0070FB2B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2B9D154F21C147310070FB2B /* extern.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = extern.cpp; sourceTree = "<group>"; };
+		2B9D155221C1484C0070FB2B /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		2B9D155321C14B7C0070FB2B /* extern2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = extern2.cpp; sourceTree = "<group>"; };
+		2B9D155621C14D930070FB2B /* test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,10 @@
 			isa = PBXGroup;
 			children = (
 				2B9D154521C146BD0070FB2B /* main.cpp */,
+				2B9D154F21C147310070FB2B /* extern.cpp */,
+				2B9D155221C1484C0070FB2B /* Header.h */,
+				2B9D155321C14B7C0070FB2B /* extern2.cpp */,
+				2B9D155621C14D930070FB2B /* test.cpp */,
 			);
 			path = externTest;
 			sourceTree = "<group>";
@@ -119,6 +130,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B9D154621C146BD0070FB2B /* main.cpp in Sources */,
+				2B9D155821C14D930070FB2B /* test.cpp in Sources */,
+				2B9D155521C14B7C0070FB2B /* extern2.cpp in Sources */,
+				2B9D155121C147310070FB2B /* extern.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
